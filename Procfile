@@ -1,1 +1,1 @@
-web: python /tgbot/bot.py
+web: python tgbot/bot.py
