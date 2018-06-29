@@ -1,0 +1,14 @@
+libsm6
+libxrender1
+libfontconfig1
+libice6
+libavcodec-dev
+libavformat-dev
+libswscale-dev
+libtbb2
+libtbb-dev
+libjpeg-dev
+libpng-dev
+libtiff-dev
+libjasper-dev
+libdc1394-22-dev
