@@ -20,7 +20,7 @@ def repeat_all_messages(message):
   print(file_info.file_path.split('.')[0])
   extension = file_info.file_path.split('.')[-1]
   filename = file_info.file_path.split('.')[0]
-  with open(filename,'wb') as new_file:
+  with open(filename + extension,'wb') as new_file:
     new_file.write(downloaded_file)
 
   if new_file:
