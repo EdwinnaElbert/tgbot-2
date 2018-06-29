@@ -15,8 +15,13 @@ def repeat_all_messages(message):
   # download_file and save it
   file_info = bot.get_file(photo_id)
   downloaded_file = bot.download_file(file_info.file_path)
-  extension = file_info.file_path.split('.')[0]
-  filename = 'saved_images/new_file.' + extension
+  extension = file_info.file_path.split('.')
+  print('-------------------------------------------------------------------')
+  print(file_info.file_path)
+  print(file_info.file_path.split('.'))
+  print(file_info.file_path.split('.')[-1])
+  
+  filename = '/saved_images/new_file.' + extension
   with open(filename,'wb') as new_file:
     new_file.write(downloaded_file)
 
