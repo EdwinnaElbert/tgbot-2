@@ -1,2 +1,2 @@
+web: python runserver.py $PORT
 web: python bot.py
-web: gunicorn app:app --log-file=-
