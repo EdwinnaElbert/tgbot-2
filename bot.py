@@ -5,6 +5,12 @@ import requests
 # import numpy as np
 # import cv2
 import video_processing
+import  sqlite3
+
+# Create a database in RAM
+db = sqlite3.connect(':memory:')
+# Creates or opens a file called mydb with a SQLite3 DB
+db = sqlite3.connect('data/mydb')
 
 bot = tb.TeleBot(config.token)
 # TODO play with tg bot
