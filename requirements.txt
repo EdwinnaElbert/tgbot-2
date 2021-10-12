@@ -2,7 +2,7 @@ certifi==2018.4.16
 chardet==3.0.4
 idna==2.7
 numpy==1.14.5
-opencv-python==3.4.1.15
+opencv-python==4.2.0.32
 pyTelegramBotAPI==3.6.3
 requests==2.7.0
 six==1.11.0
